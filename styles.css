@@ -76,11 +76,47 @@ nav img {
     height: 100vh;
 }
 
+#presentation{
+    scroll-margin-top: 90px;
+}
+
 .confection {
     display: flex;
     background-color: #f1d082c5;
     background-size: cover;
-    height: 100vh;
+    height: auto;
+}
+.card {
+    margin: 30px;
+    margin-left: 10%;
+    background-color: #1a7474;
+    color: #DACBC8;
+    box-shadow: 20px 10px 20px rgba(45,55,68,0.40);
+}
+.card-text {
+    text-align: justify;
+}
+
+.galerie{
+    width: 50%;
+    padding-top: 90px;
+}
+.galerie1{
+    display: flex;
+}
+.galerie2{
+    display: flex;
+    padding-top: 100px;
+    
+}
+.photoAtelier2 {
+    margin: 0 auto;
+    box-shadow: 20px 10px 20px rgba(45,55,68,0.40);
+}
+.photoAtelier{
+    margin: 0 auto;
+    box-shadow: 20px 10px 20px rgba(45,55,68,0.40);
+    
 }
 
 .mosaique{
@@ -94,21 +130,10 @@ nav img {
     height: 100vh;
 }
 
-.jfarr{
-    display: grid;
-    background-image: url(/images/ju2.jpeg);
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
+.carousel-inner{
+    height: auto;
+    width: 100%;
 }
-
-
-
-
-
 
 
 footer {
